@@ -29,7 +29,7 @@
 
 <body class="font-opensans">
 
-<div id="layout-a" class="theme-cyan">
+<div id="layout-a" class="theme-blue">
 
     <!-- Navigation -->
     <div class="navigation navbar navbar-light justify-content-center px-3 px-lg-2 py-2 py-md-3 border-end">

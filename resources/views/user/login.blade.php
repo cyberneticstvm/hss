@@ -19,7 +19,7 @@
 
 <body>
 
-<div id="layout-f" class="theme-cyan">
+<div id="layout-f" class="theme-blue">
 
     <!-- main body area -->
     <div class="main auth-div p-2 py-3 p-xl-5">
@@ -36,7 +36,7 @@
                             <form class="row g-1 p-0 p-md-4" method="post" action="{{ route('login') }}">
                                 @csrf
                                 <div class="col-12 text-center mb-5">
-                                    <h1>Login to your account</h1>
+                                    <h3 class="text-primary">Haritha Sahaya Sthapanam</h3>
                                     @if(session()->has('success'))
                                         <div class="alert alert-success">
                                             {{ session()->get('success') }}

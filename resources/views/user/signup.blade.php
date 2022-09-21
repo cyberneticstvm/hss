@@ -19,7 +19,7 @@
 
 <body>
 
-<div id="layout-f" class="theme-cyan">
+<div id="layout-f" class="theme-blue">
 
     <!-- main body area -->
     <div class="main auth-div p-2 py-3 p-xl-5">
