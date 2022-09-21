@@ -8,7 +8,7 @@
     <meta name="description" content="Suchitwa Mission">
     <meta name="keyword" content="Suchitwa Mission">
     <title>Forgotten Password</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    <link rel="icon" href="{{ public_path().'/back-end/images/favicon.png' }}" type="image/x-icon"> <!-- Favicon-->
 
     <!-- project css file  -->
     <link rel="stylesheet" href="{{ public_path().'/back-end/css/al.style.min.css' }}">
@@ -19,7 +19,7 @@
 
 <body>
 
-<div id="layout-f" class="theme-cyan">
+<div id="layout-f" class="theme-blue">
 
     <!-- main body area -->
     <div class="main auth-div p-2 py-3 p-xl-5">
