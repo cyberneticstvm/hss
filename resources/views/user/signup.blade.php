@@ -8,7 +8,7 @@
     <meta name="description" content="Suchitwa Mission">
     <meta name="keyword" content="Suchitwa Mission">
     <title>User Signup</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    <link rel="icon" href="{{ public_path().'/back-end/images/favicon.png' }}" type="image/x-icon"> <!-- Favicon-->
 
     <!-- project css file  -->
     <link rel="stylesheet" href="{{ public_path().'/back-end/css/al.style.min.css' }}">
