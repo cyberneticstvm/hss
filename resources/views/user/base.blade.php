@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Suchitwa Mission">
     <meta name="keyword" content="Suchitwa Mission">
-    <title>Suchitwa Mission</title>
-    <link rel="icon" href="{{ public_path().'/back-end/images/logo-icon.png' }}" type="image/x-icon"> <!-- Favicon-->
+    <title>Suchitwa Mission - Haritha Sahaya Sthapanam</title>
+    <link rel="icon" href="{{ public_path().'/back-end/images/favicon.png' }}" type="image/x-icon"> <!-- Favicon-->
 
     <!-- plugin css file  -->
     <link rel="stylesheet" href="{{ public_path().'/back-end/css/dataTables.min.css' }}">
