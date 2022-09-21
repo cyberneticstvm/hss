@@ -21,7 +21,7 @@ use App\Http\Controllers\AdminController;
 */
 
 Route::get('/', function () {
-    return view('user.signup');
+    return view('user.login');
 });
 Route::get('/user/signup/', function () {
     return view('user.signup');
