@@ -35,16 +35,16 @@
     <div class="navigation navbar navbar-light justify-content-center px-3 px-lg-2 py-2 py-md-3 border-end">
 
         <!-- Brand -->
-        <a href="/user/dash/" class="mb-0 mb-lg-3 brand-icon">
+        <!--<a href="/user/dash/" class="mb-0 mb-lg-3 brand-icon">
             <img src="{{ public_path().'/back-end/images/logo-icon.png' }}" width="50%" class="img-fluid"/>
-        </a>
+        </a>-->
 
         <!-- Menu: icon -->
         <ul class="nav navbar-nav flex-row flex-sm-column flex-grow-1 justify-content-start py-2 py-lg-0">
 
             <!-- Create group -->
-            <li class="nav-item"><a class="nav-link p-2 p-lg-3 d-block d-xl-none menu-toggle me-2 me-lg-0" href="#"><i class="fa fa-bars"></i></a></li>
-            <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" title="notifications" data-bs-toggle="modal" data-bs-target="#notificationsModal"><i class="fa fa-bell-o"></i></a></li>
+            <!--<li class="nav-item"><a class="nav-link p-2 p-lg-3 d-block d-xl-none menu-toggle me-2 me-lg-0" href="#"><i class="fa fa-bars"></i></a></li>
+            <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" title="notifications" data-bs-toggle="modal" data-bs-target="#notificationsModal"><i class="fa fa-bell-o"></i></a></li>-->
 
             <!-- Menu collapse -->
             <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" title="Settings" data-bs-toggle="modal" data-bs-target="#SettingsModal"><i class="fa fa-gear"></i></a></li>
