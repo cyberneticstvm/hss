@@ -10,7 +10,7 @@
                 <div class="row align-items-center">
                     <div class="col">
                         <small class="text-muted">Welcome Guest.</small>
-                        <h1 class="h4 mt-1">Submit New Firm</h1>
+                        <h1 class="h4 mt-1">Submit New Agency</h1>
                     </div>
                 </div> <!-- Row end  -->
             </div>
@@ -26,18 +26,18 @@
                                 <div class="card-body">                                
                                     @csrf
                                     <div id="wizard1" class="wizard-main">
-                                        <h3>Details of Consultancy</h3>
+                                        <h3>Details of Agency</h3>
                                         <section id="step1">
                                             <div class="row g-4">
                                                 <div class="col-sm-6">
-                                                    <label class="form-label">Name of the Firm <span class="req">*</span></label>
-                                                    <input type="text" name="name" class="form-control" placeholder="Name of the Firm" data-parsley-required="true" />
+                                                    <label class="form-label">Name of the Agency <span class="req">*</span></label>
+                                                    <input type="text" name="name" class="form-control" placeholder="Name of the Agency" data-parsley-required="true" />
                                                     @error('category_id')
                                                     <small class="text-danger">{{ $errors->first('category_id') }}</small>
                                                     @enderror
                                                 </div>
                                                 <div class="col-sm-6">
-                                                    <label class="form-label">Type of the Firm <span class="req">*</span></label>
+                                                    <label class="form-label">Type of the Agency <span class="req">*</span></label>
                                                     {!! Form::select('type_id', array('' => 'Select') + $ctypes, '', array('class' => 'form-control select2', 'required' => 'required', '')) !!}
                                                     @error('type_id')
                                                     <small class="text-danger">{{ $errors->first('type_id') }}</small>
@@ -100,7 +100,7 @@
                                                     @enderror
                                                 </div>
                                                 <div class="col-sm-4">
-                                                    <label class="form-label">Number of Permanent Employees <span class="req">*</span>&nbsp;&nbsp;<a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Number of Permanent Employees"><i class="fa fa-info text-info"></i></a></label>
+                                                    <label class="form-label">Number of Professionally Qualified Employees in WM Projects<span class="req">*</span>&nbsp;&nbsp;<a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Number of Professionally Qualified Employees in WM Projects"><i class="fa fa-info text-info"></i></a></label>
                                                     <input type="number" name="number_of_employees" class="form-control" placeholder="0" data-parsley-required="true" />
                                                     @error('number_of_employees')
                                                     <small class="text-danger">{{ $errors->first('number_of_employees') }}</small>
@@ -110,7 +110,7 @@
                                             <div class="row g-4 mt-3">
                                                 <div class="col-sm-4"></div>
                                                 <div class="col-sm-4">
-                                                    <p>Professional / Consultancy Fee Received by the Consultant in last three consecutive years:</p>
+                                                    <p>Revenue earned from Waste Management Projects by the Company:</p>
                                                     <table class="table table-sm">
                                                         <thead><tr><th>Year</th><th>Amount (Rs.Lakhs)</th></tr></thead>
                                                         <tbody>
@@ -143,7 +143,7 @@
                                                 </div>
                                                 <div class="col-sm-4"></div>
                                                 <div class="col-sm-12">
-                                                    <label class="form-label">Whether the firm has been blacklisted by any Central Govt. / State Govt./PSU/ Govt. Bodies / Autonomous? If yes, details thereof.</label>
+                                                    <label class="form-label">Whether the Agency has been blacklisted by any Central Govt. / State Govt./PSU/ Govt. Bodies / Autonomous? If yes, details thereof.</label>
                                                     <textarea name="blacklisted_details" class="form-control" placeholder="Details"></textarea>
                                                     @error('blacklisted_details')
                                                     <small class="text-danger">{{ $errors->first('blacklisted_details') }}</small>
@@ -172,13 +172,13 @@
                                                 </div>
                                             </div>
                                         </section>
-                                        <h3>Technical Qualification</h3>
+                                        <h3>Eligibility Conditions</h3>
                                         <section>
                                             <div class="row g-4">
                                                 <div class="col-sm-12 table-responsive">
                                                     <p class="text-end"><a href="javascript:void(0)" class="addTechQual"><i class="fa fa-plus fa-lg text-primary"></i></a></p>
                                                     <table class="table table-sm">
-                                                        <thead><tr><th>Name of Project</th><th>Client Name</th><th>Project Cost (Rs.)</th><th>Project Period (Months)</th><th>Project Start Date</th><th>Project Status</th><th></th></tr></thead>
+                                                        <thead><tr><th>Name of the Waste<br>Management Project</th><th>Client Name</th><th>Project Cost (Rs.)</th><th>Project Period (Months)</th><th>Project Start Date</th><th>Project Status</th><th></th></tr></thead>
                                                         <tbody class="techQual">
                                                             <tr>
                                                                 <td><input type="text" name="project_name[]" class="form-control" placeholder='Name of Project'/></td>
